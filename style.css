@@ -1,0 +1,109 @@
+:root {
+  --light-yellow: #FFFBAA;
+  --deep-yellow: #FFD740;
+  --soft-blue: #6BA1FF;
+  --rich-blue: #0F8CFF;
+  --calming-green: #2DC7A6;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+header {
+  background-color: var(--soft-blue);
+  padding: 20px 0;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  background-image: url('https://imgur.com/OPF6yjj');
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.section {
+  padding: 40px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--rich-blue);
+  margin-bottom: 20px;
+}
+
+.section-icon {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.section-local .section-icon {
+  background-image: url('https://imgur.com/pY7SQ7L');
+}
+
+.section-state .section-icon {
+  background-image: url('https://imgur.com/jvZdAaO');
+}
+
+.section-federal .section-icon {
+  background-image: url('https://imgur.com/iK4lNN1');
+}
+
+.section-civic .section-icon {
+  background-image: url('https://imgur.com/8zSrXbJ');
+}
+
+.section-grant .section-icon {
+  background-image: url('https://imgur.com/u8XfW9a');
+}
+footer {
+  background-color: var(--rich-blue);
+  padding: 20px 0;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
