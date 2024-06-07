@@ -53,6 +53,7 @@ nav a {
   color: #fff;
   text-decoration: none;
 }
+
 .section {
   padding: 40px 0;
 }
@@ -90,6 +91,7 @@ nav a {
 .section-grant .section-icon {
   background-image: url('https://imgur.com/u8XfW9a');
 }
+
 footer {
   background-color: var(--rich-blue);
   padding: 20px 0;
